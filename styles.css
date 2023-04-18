@@ -74,8 +74,47 @@ header{
 .nav__link--anchor-primary:hover{
     background-color: rgba(0, 136, 169,0.8) ;
     text-decoration: underline;
-
+}
 /* LANDING PAGE */
 
+.about_event_info_contianer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    max-width:700px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 80px;
+  }
 
+.about-event_info_title{
+    margin-bottom: 12px;
+}
+
+
+.about_event_info_para{
+  font-size:20px ;
+  margin-bottom: 28px;  
+  padding-top: 20px;
+}
+
+.flexmain_container{
+    display: flex;
+    justify-content: space-around;
+    height: 30vh;
+    padding-top: 50px;
+}
+
+.img{
+    width: 100%;
+}
+
+.right_wrapper{
+    width: 50%;
+}
+
+.left_wrapper, .right_wrapper{
+    width: 50vh;
+}
 
