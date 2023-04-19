@@ -68,6 +68,10 @@ header{
     cursor: pointer;
 }
 
+.nav_links :hover{
+    text-decoration: underline;
+}
+
 .nav_links li{
     display: inline-block;
     padding: 0px 20px;
@@ -79,10 +83,6 @@ header{
 
 .nav_links li a :hover{
    color: #0088a9; 
-}
-
-.nav__link--anchor{
-    text-decoration: none;
 }
 
 .nav__link--anchor-primary{
@@ -186,7 +186,6 @@ transform: scale(1.03);
 
 .container{
     padding: 56px;
-    
 }
 
 .row{
@@ -207,17 +206,18 @@ footer{
     background-color: #1d1d1f;
     text-align: center;
     align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .footer_logo{
     padding-top: 20px;
 }
 
-.footer__list{
-    margin: 24px 0 24px 0;
-}
-
 ul{
-    align-items: center;
     display: flex;
 }
+
+
+
