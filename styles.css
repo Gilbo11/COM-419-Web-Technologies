@@ -4,7 +4,7 @@
     color: white;
     box-sizing: border-box;
     padding: 0;
-
+    line-height: 1;
 }
 
 span{
@@ -19,7 +19,7 @@ li{
     list-style-type: none;
 }
 
-.btn{
+button{
     background-color: #0088a9;
     color: white;
     padding: 12px 24px;
@@ -46,6 +46,8 @@ h2{
 h3{
     font-size: 28px;
 }
+
+
 /* HEADER */
 header{
     display: flex;
@@ -101,8 +103,6 @@ header{
     background-color: #24252a;
 }
 
-
-
 .about_event_info_container{
     display: flex;
     flex-direction: column;
@@ -146,13 +146,20 @@ header{
     width: 50vh;
 }
 
+.ticket_btn_wrapper{
+    padding-top: 5px;
+}
 /* LINE UP*/
+#line_up{
+    background-color: #393a41;
+}
 .section_title{
     text-align: center;
 }
 
 .bands{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .band{
@@ -179,15 +186,38 @@ transform: scale(1.03);
 
 .container{
     padding: 56px;
+    
 }
 
 .row{
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    
 }
 
 .band_name{
     color: #0088a9;
     text-align: center;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #1d1d1f;
+    text-align: center;
+    align-items: center;
+}
+
+.footer_logo{
+    padding-top: 20px;
+}
+
+.footer__list{
+    margin: 24px 0 24px 0;
+}
+
+ul{
+    align-items: center;
+    display: flex;
 }
