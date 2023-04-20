@@ -19,6 +19,10 @@ li{
     list-style-type: none;
 }
 
+li:hover{
+    text-decoration: underline;
+}
+
 button{
     background-color: #0088a9;
     color: white;
@@ -69,8 +73,9 @@ header{
 
 /* NAV */
 .nav_links{
-    list-style-type: none;
+    text-align: center;
     cursor: pointer;
+    padding-right: 175px;
 }
 
 .nav_links :hover{
@@ -87,7 +92,7 @@ header{
 }
 
 .nav_links li a :hover{
-   color: #0088a9; 
+   color: #0d5e72; 
 }
 
 .nav__link--anchor-primary{
@@ -153,6 +158,10 @@ header{
 
 .ticket_btn_wrapper{
     padding-top: 5px;
+}
+
+.ticket_btn{
+    cursor: pointer;
 }
 /* LINE UP*/
 #line_up{
@@ -222,8 +231,25 @@ footer{
 
 ul{
     display: flex;
+    cursor: pointer;
 }
 
+.footer_list{
+    margin: 24px 0 24px 0;
+}
+
+.footer_links{
+    padding-left: 10px;
+}
+
+.footerlinks{
+    padding-left: 35px;
+}
+
+
+.footer{
+    padding-top: 300px;
+}
 /* CONTACT FORM */
 
 #contact_wrapper{
@@ -233,13 +259,13 @@ ul{
 #contact_form_header{
     color: #0088a9;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 80px;
 }
 
 #contact_form{
     text-align: center;
     background-color: #24252a;
-    padding-top: 30px;
+    padding-top: 20px;
     line-height: 1.5;
 }
 
