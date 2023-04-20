@@ -30,8 +30,13 @@ button{
     cursor: no-drop;
 }
 
+button:hover{
+    background-color:#0d5e72;
+}
+
 button:active{
     transform: translateY(1px);
+    ;
 }
 
 h1{
@@ -219,5 +224,44 @@ ul{
     display: flex;
 }
 
+/* CONTACT FORM */
 
+#contact_wrapper{
+    background-color: #24252a;
+}
+
+#contact_form_header{
+    color: #0088a9;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#contact_form{
+    text-align: center;
+    background-color: #24252a;
+    padding-top: 30px;
+    line-height: 1.5;
+}
+
+.btn_wrapper{
+    padding-top: 10px;
+}
+
+.textbox{
+    width: 300px;
+    height: 30px;
+}
+
+.message_txt_box{
+    width: 300px;
+    height: 100px;
+}
+
+input{
+    color: black;
+}
+
+#contact_form_btn{
+    cursor: pointer;
+}
 
