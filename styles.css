@@ -56,6 +56,9 @@ h3{
     font-size: 28px;
 }
 
+body{
+    background-color: #24252a;
+}
 
 /* HEADER */
 header{
@@ -281,6 +284,7 @@ ul{
 .message_txt_box{
     width: 300px;
     height: 100px;
+    
 }
 
 input{
