@@ -1,5 +1,5 @@
 *{
-    margin: 0%;
+    margin: 0;
     font-family: 'Trebuchet MS', sans-serif;
     color: white;
     box-sizing: border-box;
@@ -293,5 +293,68 @@ input{
 
 #contact_form_btn{
     cursor: pointer;
+}
+
+/* FAQ PAGE */
+#FAQ_page{
+    padding-top: 100px;
+    min-height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faq{
+    max-width: 700px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.5s ease;
+}
+
+.answer p{
+    line-height: 1,5;
+    animation: fade 1s ease-in-out;
+}
+
+.faq_answer{
+    padding-top: 10px;
+}
+
+.faq.active .answer{
+    max-height: 300px;
+}
+
+.faq.active.svg{
+    transform: rotate(180deg);
+}
+
+svg{
+    transition: transform 0.s ease-in;
+}
+
+@keyframes fade {
+    from{
+      opacity: 0;  
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0px);
+    }
 }
 
