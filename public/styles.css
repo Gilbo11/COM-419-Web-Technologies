@@ -11,16 +11,18 @@ span{
     color: #0088a9;
 }
 
+
+li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
 a{
     text-decoration: none;
 }
 
-li{
+ul{
     list-style-type: none;
-}
-
-li:hover{
-    text-decoration: underline;
 }
 
 button{
@@ -70,7 +72,7 @@ header{
 }
 
 .logo{
-    cursor: pointer;
+   
     font-weight: bold;
 }
 
@@ -81,10 +83,6 @@ header{
     padding-right: 175px;
 }
 
-.nav_links :hover{
-    text-decoration: underline;
-}
-
 .nav_links li{
     display: inline-block;
     padding: 0px 20px;
@@ -92,10 +90,6 @@ header{
 
 .nav_links li a{
     transition: all 300ms ease 0s;
-}
-
-.nav_links li a :hover{
-   color: #0d5e72; 
 }
 
 .nav__link--anchor-primary{

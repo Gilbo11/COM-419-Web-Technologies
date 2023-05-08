@@ -12,4 +12,8 @@ app.get("/contact", (req, res)=>{
     res.render("contact")
 });
 
+app.get("/FAQ", (req, res)=>{
+    res.render("FAQ")
+});
+
 app.listen(5000, ()=>{ console.log ("Server has started") });
