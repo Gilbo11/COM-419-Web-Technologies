@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red stage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h2 class="logo">Summer festival</h2>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="/stages" class="
+                    nav__link--anchor
+                    nav__link--anchor-primary
+                    ">Stages</a>
+                </li>
+                <li><a href="/FAQ" class="
+                    nav__link--anchor
+                    nav__link--anchor-primary
+                    ">FAQ</a>
+                </li>
+                <li><a href="/" class="
+                    nav__link--anchor
+                    nav__link--anchor-primary
+                    ">Home</a>
+                </li>
+            </ul>
+        </nav>
+        <li>
+            <a href="/contact" class="
+            nav__link--anchor
+            nav__link--anchor-primary
+            ">Contact</a>
+        </li>
+    </header>
+  
+
+    <h1 class="stage_header"><span>Red Stage</span></h1>
+    
+    <div class="stage_db_info">
+      <% band.forEach(row => { %>
+          <p>
+            Band id: <%= row.band_id %> <br>
+            <%= row.name %> <br>
+            <%= row.description %> <br>
+          </p>
+        <% }); %>
+    </div>
+      
+    <div class="stages_footer">
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <h2 class="logo footer_logo">Summer Festival</h2>
+                </div>
+            </div>    
+        </footer>
+    </div>
+      
+     
+
+</body>
+</html>
