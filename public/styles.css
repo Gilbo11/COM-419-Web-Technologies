@@ -365,7 +365,7 @@ svg{
 
 @media screen and  (max-width: 1250px){
     #line_up{
-        padding-top: 50px;
+        margin-top: 10px;
     }
 
    
@@ -375,7 +375,7 @@ svg{
     }
     
     .about_event_info_container{
-        padding-top: 0px;
+        padding-top: 10px;
       }
     
     .about-event_info_title{
@@ -389,30 +389,17 @@ svg{
       }
     
     .flexmain_container{
-        padding-top: 50px;
+        padding-top: 20px;
     }
 
     .text_info{
-        padding-top: 0px;
-    }
-
-    header{
-        display: flex;
-        justify-content:space-between;
-        align-items: center;
-        padding: 30px 10%;
-        background-color:#1d1d1f ;
+        padding-top: 1px;
     }
     
-    .logo{
-       
-        font-weight: bold;
-    }
     
     /* NAV */
     .nav_links{
-        text-align: center;
-        cursor: pointer;
+        
         padding-right: 120px;
     }
     
@@ -420,14 +407,12 @@ svg{
         
         padding: 0px 0px;
     }
-    
-    .logo{
-        font-weight: bold;
-    }
 
     h2{
         font-size: 26px;
     }
+}
+
+@media screen and  (max-width: 400px){
     
-   
 }
